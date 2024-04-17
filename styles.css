@@ -1,0 +1,52 @@
+/* Created Waleed Khan, 2024 */
+
+body{
+    background-color: rgb(26, 29, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2em;
+}
+h1{
+    font-weight: bold;
+    color: white;
+}
+h2{
+    font-size: 1.25em;
+    color: rgb(225,225,225);
+    margin: 0;
+}
+.titleContainer{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.container{
+    padding-top: 2em;
+    padding-left: 1em;
+}
+.rowContainer{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space:nowrap;
+}
+.row{
+    display: inline-flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space:nowrap;
+    gap: 1em;
+    padding: 1em 1em 1em 0em;
+}
+.item{
+    border: 1px solid black;
+    height: 162px;
+    width: 288px;
+    background-size:cover;
+    box-shadow: 3px 3px 5px black;
+    transition: width 0.5s, height 0.5s;
+}
+.item:focus{
+    border: 2px solid white;
+    outline: none;
+    height: 203px;
+    width: 360px;
+    background-size: cover;
+}
